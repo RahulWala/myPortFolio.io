@@ -1,0 +1,71 @@
+body{
+	font-size: 1.3em;
+}
+.nav-item:hover{
+	border-bottom: 3px solid #FBC316;
+	margin-bottom: -3px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px){
+	.image{
+		height: 240px;
+		background-size: 100% 100%;
+		margin-top: 0.5vh;
+		background-image: url('Hd.png');
+		background-repeat: no-repeat;
+		background-color: #FBC316;
+	}
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px){
+	.image{
+		height: 400px;
+		background-size: 100% 100%;
+		margin-top: 0.5vh;
+		background-image: url('Hd.png');
+		background-repeat: no-repeat;
+		background-color: #FBC316;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+	.image{
+		height: 400px;
+		background-size: 100% 100%;
+		margin-top: 0.5vh;
+		background-image: url('Hd.png');
+		background-repeat: no-repeat;
+		background-color: #FBC316;
+	}
+}
+
+@media screen and (min-width: 1025px){
+	.image{
+		height: 400px;
+		background-size: 100% 100%;
+		margin-top: 0.5vh;
+		background-image: url('Hd.png');
+		background-repeat: no-repeat;
+		background-color: #FBC316;
+	}
+	#hrTag{
+		display: none;
+	}
+}
+
+h3{
+	background-color: #000000;
+	text-align: center;
+	color: #fff;
+	margin-top: 5px;
+	border-radius: 4px;
+}
+h4{
+	text-align: center;
+}
+span i{
+	text-align: center;
+}
+p{
+	text-align-last: center;
+}
